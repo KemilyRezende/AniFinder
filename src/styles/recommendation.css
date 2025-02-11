@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&subset=hebrew&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #1370E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header a{
+    font-family: 'League Spartan';
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header .rec{
+    color: #110632;
+}
+
+.header a:hover{
+    color: #110632;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.header .rec:hover{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 2vh;
+}
+
+.box .recommend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.box img{
+    margin-top: 12vh;
+    width: 14vw;
+}
+
+.box h1{
+    font-family: 'League Spartan';
+    font-size: 35px;
+    color: #110632;
+}
+
+.box .search{
+    width: 60vw;
+    background-color: #E3E4F9;
+    align-items: center;
+    border: #92B2F2 solid 2px;
+    height: 7vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .search button{
+    background-color: transparent;
+    border: none;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .search button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box .search button img{
+    width: 2.5vw;
+    margin-top: -0.5vh;
+    margin-left: 0.5vw;
+}
+
+.box .search input{
+    height: 6vh;
+    margin-left: 1vw;
+    width: calc(60vw - 5vw - 2vw); ;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'League Spartan';
+    font-family: 'League Spartan';
+    font-size: 20px;
+    color: #92B2F2;
+}
+
+.box .search input::placeholder{
+    font-family: 'League Spartan';
+    font-size: 20px;
+    color: #92B2F2;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vh;
+}
+
+.results p {
+    font-family: 'League Spartan';
+    font-size: 20px;
+    font-weight: bold;
+    color: #110632;
+}

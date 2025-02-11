@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&subset=hebrew&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #FF0091;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header a{
+    font-family: 'League Spartan';
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header .an{
+    color: #110632;
+}
+
+.header a:hover{
+    color: #110632;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.header .an:hover{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+section{
+    height: 100vh;
+}
+
+.graphs{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin-top: 11vh;
+}
+
+.pic{
+    width: 33vw;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+    height: 90vh;
+}
+
+
+.d-block{
+    height: 60vh;
+}
+
+.data h1{
+    font-family: 'League Spartan';
+    font-size: 40px;
+    color: #110632;
+    margin-top: 10vh;
+}
+
+.mostPopularAnimes{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mostPopularAnimes .animes{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1vh;
+}
+
+.mostPopularAnimes .animes img{
+    width: 11vw;
+}
+
+.mostPopularAnimes .mostPopgraph{
+    width: 58vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.mostPopgraph h1{
+    font-family: 'League Spartan';
+    text-align: center;
+    font-size: 40px;
+    color: #110632;
+}
+
+.mostPopgraph img{
+    width: 55vw;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    width: 40vw;
+    height: 12vw;
+}
+
+.cards .texts{
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+}
+
+.texts h1{
+    font-family: 'League Spartan';
+    font-size: 25px;
+    font-weight: bolder;
+    color: #110632;
+}
+
+.texts p{
+    font-family: 'League Spartan';
+    font-size: 20px;
+    color: #110632;
+    margin-top: -1vh;
+    margin-bottom: -1vh;
+}
